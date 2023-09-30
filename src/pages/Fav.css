@@ -1,0 +1,45 @@
+.showcase-f {
+  width: 300px;
+  padding: 10px;
+  display: inline-block;
+}
+.fimg-container img {
+  height: 100%;
+}
+.fav-container {
+  background-color: white;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0.2, 0.3);
+  height: 100%;
+}
+
+.fimg-container {
+  transition: 0.3;
+  max-height: 400px;
+  min-height: 300px;
+  display: flex;
+  justify-content: center;
+}
+.d-none {
+  display: none;
+}
+.d-block {
+  display: block;
+}
+.d-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fimg-container img:nth-child(1) {
+  display: block;
+}
+.fimg-container:hover img:nth-child(1) {
+  display: none;
+}
+.fimg-container img:last-child {
+  display: none;
+}
+.fimg-container:hover img:last-child {
+  display: block;
+}

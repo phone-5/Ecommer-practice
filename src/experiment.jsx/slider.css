@@ -1,0 +1,43 @@
+.none {
+  margin: 0;
+  padding: 0;
+}
+.slide-show-container {
+  position: relative;
+}
+:root {
+  --bg1--: #25aba4;
+}
+
+.slick-dots {
+  position: absolute;
+  bottom: 20px; /* Adjust the spacing from the bottom as needed */
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.slick-dot {
+  margin: 0 4px; /* Adjust the spacing between dots as needed */
+}
+
+.slick-dot button {
+  width: 10px;
+  height: 10px;
+  background: #ccc; /* Adjust the dot color as needed */
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.slick-active .slick-dot {
+  background: #333; /* Adjust the active dot color as needed */
+}
+.slick-active .s-btn .btn {
+  background-color: var(--bg1--);
+}

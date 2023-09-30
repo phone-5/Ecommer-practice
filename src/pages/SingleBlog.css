@@ -1,0 +1,22 @@
+.d-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.blogv-container {
+  padding: 10px;
+}
+.v-container {
+  height: 400px;
+}
+.icons {
+  outline: none;
+  border: none;
+  color: #878787;
+}
+.icons .up {
+  margin-right: 20px;
+}
+.blog-review p {
+  margin-bottom: 20px;
+}

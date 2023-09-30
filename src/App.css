@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,900&family=Roboto:wght@100;300;400;500;700;900&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,600&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #ededed;
+  height: 100vh;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.gap-10 {
+  gap: 10px;
+}
+:root {
+  --bg1--: #25aba4;
+}
+.gap-15 {
+  gap: 15px;
+}
+.gap-30 {
+  gap: 30px;
+}
+.cart-container {
+  background-color: white;
+}
+
+main {
+  overflow-y: scroll;
+  background: transparent;
+}
+.sm-logo {
+  display: none;
+}
+
+.ant-layout-sider-collapsed .sm-logo {
+  display: block;
+}
+.ant-layout-sider-collapsed .lg-logo {
+  display: none;
+}
+.ant-menu-title-content {
+  font-size: 16px;
+}

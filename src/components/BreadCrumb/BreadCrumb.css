@@ -1,0 +1,22 @@
+.breadcrumb {
+  font-size: 14px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: 400;
+  margin: 15px 10px 10px 10px;
+}
+
+.breadcrumb-item {
+  display: inline-block;
+  padding: 0 !important;
+}
+
+.breadcrumb-separator {
+  margin: 0 5px;
+}
+.breadcrumb-item + .breadcrumb-item::before {
+  float: left;
+  padding-right: 0.5rem;
+  color: #6c757d;
+  content: "";
+}

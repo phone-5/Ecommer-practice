@@ -1,0 +1,15 @@
+.banner-c {
+  height: 150px;
+  object-fit: cover;
+}
+.banner-c img {
+  height: 100%;
+  width: 100%;
+}
+.talk {
+  top: 30%;
+  left: 35%;
+  font-size: 45px;
+  color: white;
+  font-weight: 500;
+}

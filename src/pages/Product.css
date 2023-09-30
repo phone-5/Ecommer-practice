@@ -1,0 +1,61 @@
+.red,
+.yellow,
+.black,
+.green {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+}
+.red {
+  background-color: red;
+}
+.yellow {
+  background-color: yellow;
+}
+.green {
+  background-color: green;
+}
+.black {
+  background-color: black;
+}
+.price-brand h6 span {
+  font-size: 20px;
+  margin: 5px;
+}
+.price-brand h6 {
+  color: #3c3c3c;
+}
+.checkbox {
+  border: none;
+  border-radius: 50%;
+  color: yellowgreen;
+}
+.promote {
+  background-color: rgb(237, 244, 19);
+}
+.review .rating {
+  margin-bottom: 20px;
+}
+.color-size h5 {
+  color: #3c3c3c;
+  font-size: 15px;
+}
+.color-container h5 {
+  margin-bottom: 20px;
+}
+.image-s img {
+  width: 120px;
+  height: 140px;
+  margin-bottom: 10px;
+}
+picture img {
+  width: 300px;
+  height: 400px;
+}
+.d-picture img {
+  width: 400px;
+  height: 400px;
+}
+.d-picture {
+  object-fit: contain;
+}

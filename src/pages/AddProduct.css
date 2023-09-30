@@ -1,0 +1,33 @@
+.select-container {
+  position: relative;
+  display: inline-block;
+  width: 200px;
+  margin: 20px;
+}
+
+/* Style the select element */
+select {
+  appearance: none;
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #3498db;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  color: #333;
+  cursor: pointer;
+}
+
+/* Style the arrow icon for the select */
+.select-arrow {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+
+/* Style the options */
+option {
+  font-size: 16px;
+  padding: 16px;
+}

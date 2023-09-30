@@ -1,0 +1,12 @@
+.blog-img {
+  height: 200px;
+  width: 100%;
+  object-fit: contain;
+}
+.blog-img img {
+  height: 100%;
+  width: 100%;
+}
+.blog-card {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}

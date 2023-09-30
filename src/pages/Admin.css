@@ -1,0 +1,38 @@
+.trigger {
+  padding: 0 24px;
+  font-size: 18px;
+  line-height: 64px;
+  cursor: pointer;
+  transition: color 0.3s;
+  color: rgba(250, 0, 0, 0.88) !important;
+}
+.trigger:hover {
+  color: #1890ff;
+}
+
+.demo-logo-vertical h2 {
+  color: rgb(255, 196, 0);
+  top: 0;
+  height: 90px;
+  padding: 0 16px;
+  background: rgb(45, 166, 101);
+  margin-bottom: 0px;
+}
+.anth {
+  background: rgb(229, 228, 228);
+}
+.slider-container {
+  height: 100vh;
+}
+.badge {
+  top: 13px;
+  right: -5px;
+}
+
+.arrowdown {
+  color: rgb(255, 48, 48);
+}
+.arrowup {
+  color: rgb(25, 255, 33);
+}
+

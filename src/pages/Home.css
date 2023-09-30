@@ -1,0 +1,158 @@
+.main-container,
+.main-container.p {
+  background-image: url("img/hero4.png");
+  background-size: contain;
+  background-position: 79px 0;
+  height: 660px;
+  margin-bottom: 40px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.main-container.p {
+  background-image: url("img/products/Digital/tvb.webp");
+  background-size: 100%;
+  background-position: cover;
+  background-position: 5px 1px;
+  height: 600px;
+  overflow: hidden;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+  border-radius: 5px;
+}
+.gap-10 {
+  gap: 10px;
+}
+:root {
+  --bg1--: #25aba4;
+}
+.gap-15 {
+  gap: 15px;
+}
+.gap-30 {
+  gap: 30px;
+}
+
+.content h5 {
+  color: rgb(186, 82, 255);
+}
+.content {
+  top: 25%;
+  left: 10%;
+}
+.content p .discount {
+  color: #ff4a4a;
+  font-weight: 400;
+  font-size: 20px;
+}
+.content p span {
+  color: black;
+  font-weight: 500;
+  padding-right: 7px;
+  font-size: 18px;
+}
+.content p .really-price {
+  color: #9b9b9b;
+}
+
+/* main container end */
+.btn {
+  display: inline-block;
+  padding: 10px 30px;
+  background: var(--bg1--);
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  filter: brightness(1.1);
+  color: white;
+}
+
+/* Feature container */
+.feature-container {
+  background: #ebe9e9;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  margin: 10px;
+}
+.feature {
+  margin: 10px;
+  background-color: white;
+  border-radius: 5px;
+}
+.feature-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.feature-img img {
+  width: 60%;
+  height: 60%;
+}
+
+.feature h4 {
+  padding-top: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 17px;
+}
+
+/* products btn */
+.switch-btn .btn:nth-child(1) {
+  margin: 10px;
+}
+.switch-btn .btn {
+  color: black;
+  background: transparent;
+  border: 1px solid black;
+  transition: 0.5s;
+}
+.switch-btn .btn.active {
+  color: rgb(255, 251, 251);
+  background: #000;
+  transition: 0.5s;
+}
+.home-container .logos {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  margin: 10px;
+  border-radius: 10px;
+  margin-bottom: 70px;
+}
+
+/* banner */
+.home-banner {
+  background-image: url("img/banner/b19.jpg");
+  background-size: cover;
+  height: 300px;
+  background-position: 0 -150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+.home-banner h2 {
+  color: white;
+  font-size: 45px;
+  font-family: "Roboto", sans-serif;
+}
+@media (max-width: 1255px) {
+  .digital-product {
+    width: 240px;
+  }
+  .digital-products {
+    display: flex;
+    justify-content: flex-start !important;
+  }
+}

@@ -1,0 +1,14 @@
+.login-container {
+  background: rgb(23, 233, 187);
+  min-height: 100vh;
+}
+.forgotp {
+  margin-bottom: 10px;
+}
+.login-container p {
+  font-size: 14px;
+  display: flex;
+  justify-content: flex-start;
+  color: #9d9d9d;
+  margin: 5px 0;
+}

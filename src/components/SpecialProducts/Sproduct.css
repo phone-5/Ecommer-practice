@@ -1,0 +1,51 @@
+.s-detail,
+.sc-detail {
+  top: 10%;
+  left: 5%;
+}
+.s2-detail {
+  top: 12%;
+  left: 10%;
+}
+.s-img,
+.s2-img {
+  height: 100%;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.s-img:hover,
+.s2-img:hover {
+  scale: 1.02;
+}
+.s-img img,
+.s2-img img {
+  height: 100%;
+  width: 100%;
+}
+
+.s-detail p span {
+  font-weight: 500;
+  font-size: 20px;
+}
+.s-detail h6 {
+  color: rgb(255, 106, 106);
+}
+.sc-detail {
+  color: rgb(237, 237, 237);
+}
+.s-clothes .btn {
+  margin-top: 30px;
+}
+.s-clothes .col-6 {
+  transition: 0.3s ease-in-out;
+}
+.s-clothes .col-6:hover {
+  scale: 1.02;
+  .btn {
+    filter: brightness(1.1);
+    color: white;
+  }
+}
+.s-btn .btn {
+  background-color: #333;
+}
